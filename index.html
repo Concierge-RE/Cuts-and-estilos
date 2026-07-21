@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cuts & Estilos | Modern Salon Booking</title>
+  <meta name="description" content="Book online for Cuts & Estilos hair and beauty services in Santa Cruz, CA." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">Cuts & Estilos</a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#services">Services</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Book</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Cuts & Estilos</p>
+        <h1>Book your next look online.</h1>
+        <p class="subtitle">From precision cuts to special-event styling, reserve your appointment at our Santa Cruz salon in just a few clicks.</p>
+        <div class="hero-badges" aria-label="Highlights">
+          <span>Open daily</span>
+          <span>Walk-ins welcome</span>
+          <span>Same-week availability</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact">Book Now</a>
+          <a class="button button-secondary" href="#services">Explore Services</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card">
+          <img src="images/loc.png" alt="Salon location" class="hero-image" />
+          <div class="hero-card-content">
+            <h2>Visit us</h2>
+            <p>236 Ocean Street</p>
+            <p>Santa Cruz, CA 95060</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="section-heading">
+        <p class="eyebrow">Our Services</p>
+        <h2>Premium beauty appointments</h2>
+        <p>Browse our most popular services and book a time that fits your schedule.</p>
+      </div>
+      <div class="cards-grid">
+        <article class="card">
+          <img src="images/service1.webp" alt="Updos" class="card-image" />
+          <h3>Updos</h3>
+          <p>Special event styling and formal hair designs for any occasion.</p>
+          <p class="price">$65 – $150</p>
+        </article>
+        <article class="card">
+          <img src="images/service1.webp" alt="Eyebrow Waxing" class="card-image" />
+          <h3>Eyebrow Waxing</h3>
+          <p>Precise eyebrow shaping and waxing for a polished look.</p>
+          <p class="price">$10 – $25</p>
+        </article>
+        <article class="card">
+          <img src="images/service1.webp" alt="Hair Designs" class="card-image" />
+          <h3>Hair Designs</h3>
+          <p>Custom shaved patterns, line work, and hair graphics.</p>
+          <p class="price">$10 – $35</p>
+        </article>
+        <article class="card">
+          <img src="images/service1.webp" alt="Hair Extensions" class="card-image" />
+          <h3>Hair Extensions</h3>
+          <p>Add length, volume, and dimension with professional hair extension services.</p>
+          <p class="price">Custom pricing</p>
+        </article>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section class="section section-alt" id="team">
+      <div class="section-heading">
+        <p class="eyebrow">Meet the team</p>
+        <h2>Skilled stylists</h2>
+        <p>Trusted professionals delivering a fresh and modern salon experience.</p>
+      </div>
+      <div class="team-grid">
+        <article class="team-card">
+          <img src="images/hero.jpg" alt="Maria" class="team-image" />
+          <h3>Maria</h3>
+          <p>Expert stylist focused on precision cuts, special occasion hair, and beauty services.</p>
+        </article>
+        <article class="team-card">
+          <img src="images/team1.jpg" alt="Daniel" class="team-image" />
+          <h3>Daniel</h3>
+          <p>Creative barber and hair designer for personalized looks and custom patterns.</p>
+        </article>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">Book your visit</p>
+        <h2>Ready for your appointment?</h2>
+        <p>Fill out the form below to request an appointment at Cuts & Estilos in Santa Cruz.</p>
+      </div>
+      <form class="booking-form" action="#" method="get">
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Your name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="you@example.com" required />
+        </label>
+        <label>
+          Phone
+          <input type="tel" name="phone" placeholder="(123) 456-7890" />
+        </label>
+        <label>
+          Service
+          <select name="service" required>
+            <option value="">Select a service</option>
+            <option>Updos</option>
+            <option>Eyebrow Waxing</option>
+            <option>Hair Designs</option>
+            <option>Hair Extensions</option>
+          </select>
+        </label>
+        <label>
+          Preferred date or time
+          <input type="text" name="preferred_time" placeholder="e.g. June 30, afternoon" />
+        </label>
+        <label>
+          Notes
+          <textarea name="notes" rows="4" placeholder="Tell us about your appointment request"></textarea>
+        </label>
+        <button class="button button-primary" type="submit">Send Request</button>
+        <p class="form-note">This is a static demo page. The form does not send data.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Cuts & Estilos | 236 Ocean Street, Santa Cruz, CA</p>
+  </footer>
+</body>
+</html>
