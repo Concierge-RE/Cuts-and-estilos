@@ -462,3 +462,31 @@ h1 {
     gap: 1.75rem;
   }
 }
+
+
+/* Existing Styles */
+.centered-phone-number {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically (if needed) */
+}
+
+.phone-link {
+    color: #1a73e8; /* Example blue color */
+    text-decoration: none; /* Remove underline if desired */
+    position: relative; /* Positioning context for glow effect */
+}
+
+/* Glow Effect on Hover */
+.glow-blue:hover {
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 5px #1a73e8, 0 0 10px #1a73e8, 0 0 15px #1a73e8, 0 0 20px #1a73e8;
+    }
+    to {
+        box-shadow: 0 0 20px #1a73e8, 0 0 40px #1a73e8, 0 0 60px #1a73e8, 0 0 80px #1a73e8;
+    }
+}
